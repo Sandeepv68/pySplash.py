@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a bug to help us improve pySplash
+about: Report a bug to help us improve pySplash.py
 title: ''
 labels: bug
 assignees: ''
@@ -32,7 +32,7 @@ What actually happened. Include full traceback if applicable.
 
 - **OS**: [e.g., Windows 11, macOS 14, Ubuntu 22.04]
 - **Python version**: [e.g., 3.12.1]
-- **pySplash version**: [e.g., 1.0.0]
+- **pySplash.py version**: [e.g., 1.0.0]
 - **requests version**: [e.g., 2.31.0]
 - **httpx version**: [e.g., 0.25.0]
 

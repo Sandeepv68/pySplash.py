@@ -1,4 +1,4 @@
-"""Custom exception class for pySplash errors."""
+"""Custom exception class for pySplash.py errors."""
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ from typing import Any
 
 
 class PySplashError(Exception):
-    """Exception raised by pySplash for API and validation errors."""
+    """Exception raised by pySplash.py for API and validation errors."""
 
     def __init__(
         self,

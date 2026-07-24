@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in pySplash, please report it responsibly.
+If you discover a security vulnerability in pySplash.py, please report it responsibly.
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
@@ -19,7 +19,7 @@ You can expect an initial response within 72 hours. We will work with you to und
 
 ## Scope
 
-This policy applies to the pySplash package published on PyPI and this GitHub repository.
+This policy applies to the pySplash.py package published on PyPI and this GitHub repository.
 
 ## Supported Versions
 

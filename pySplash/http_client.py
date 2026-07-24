@@ -11,7 +11,7 @@ import requests
 from .config import DEFAULT_HEADERS, DEFAULT_RETRIES, DEFAULT_RETRY_DELAY, DEFAULT_TIMEOUT
 from .errors import PySplashError
 
-logger = logging.getLogger("pySplash")
+logger = logging.getLogger("pySplash.py")
 
 
 class HttpResponse:

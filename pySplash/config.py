@@ -1,4 +1,4 @@
-"""Configuration for pySplash - URL templates and default HTTP settings."""
+"""Configuration for pySplash.py - URL templates and default HTTP settings."""
 
 API_LOCATION = "https://api.unsplash.com/"
 BEARER_TOKEN_URL = "https://unsplash.com/oauth/token"
@@ -48,7 +48,7 @@ DEFAULT_RETRIES = 2
 DEFAULT_RETRY_DELAY = 0.1
 DEFAULT_HEADERS = {
     "Content-type": "application/json",
-    "X-Requested-With": "PySplash",
+    "X-Requested-With": "PySplash.py",
 }
 
 AVAILABLE_ORDERS = ["latest", "oldest", "popular"]

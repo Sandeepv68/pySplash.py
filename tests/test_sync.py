@@ -1,4 +1,4 @@
-"""Synchronous pySplash API tests."""
+"""Synchronous pySplash.py API tests."""
 
 from unittest.mock import MagicMock, patch
 

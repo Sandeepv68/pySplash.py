@@ -8,7 +8,7 @@ from typing import Any
 
 from .errors import PySplashError
 
-logger = logging.getLogger("pySplash")
+logger = logging.getLogger("pySplash.py")
 
 
 class PySplashBase:
@@ -95,7 +95,7 @@ class PySplashBase:
     def _default_headers(bearer_token: str | None = None, access_key: str | None = None) -> dict[str, str]:
         headers: dict[str, str] = {
             "Content-type": "application/json",
-            "X-Requested-With": "PySplash",
+            "X-Requested-With": "PySplash.py",
         }
         if bearer_token:
             headers["Authorization"] = f"Bearer {bearer_token}"
