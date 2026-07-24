@@ -7,7 +7,7 @@ name = "pySplash"
 version = "1.0.0"
 description = "A Python wrapper for the Unsplash API"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.9"
 authors = [
     {name = "Sandeep Vattapparambil"},
@@ -16,7 +16,6 @@ keywords = ["Unsplash", "API", "wrapper", "Images", "Photos"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
@@ -39,6 +38,9 @@ dev = [
 
 [tool.setuptools.packages.find]
 include = ["pySplash*"]
+
+[tool.setuptools.package-data]
+pySplash = ["py.typed"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
