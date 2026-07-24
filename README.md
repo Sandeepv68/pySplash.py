@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="pySplash" width="600">
+</p>
+
 # pySplash v1.0.0
 
 [![license](https://img.shields.io/github/license/Sandeepv68/pySplash.svg)](https://github.com/Sandeepv68/pySplash/blob/master/LICENSE) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) ![GitHub issues](https://img.shields.io/github/issues/Sandeepv68/pySplash.svg) ![GitHub forks](https://img.shields.io/github/forks/Sandeepv68/pySplash.svg) ![GitHub stars](https://img.shields.io/github/stars/Sandeepv68/pySplash.svg)
