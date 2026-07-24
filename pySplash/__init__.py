@@ -1,4 +1,4 @@
-"""pySplash - A Python wrapper for the Unsplash API."""
+"""pySplash.py - A Python wrapper for the Unsplash API."""
 
 from .api import PySplashApi
 from .api_async import PySplashApiAsync

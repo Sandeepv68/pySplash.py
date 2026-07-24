@@ -1,4 +1,4 @@
-"""Synchronous pySplash API client."""
+"""Synchronous pySplash.py API client."""
 
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ from .models import (
     UserStatistics,
 )
 
-logger = logging.getLogger("pySplash")
+logger = logging.getLogger("pySplash.py")
 
 _BASE = URL_CONFIG["API_LOCATION"]
 _TOKEN_URL = URL_CONFIG["BEARER_TOKEN_URL"]

@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest an idea for pySplash
+about: Suggest an idea for pySplash.py
 title: ''
 labels: enhancement
 assignees: ''

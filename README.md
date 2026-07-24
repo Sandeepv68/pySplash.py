@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/logo.png" alt="pySplash" width="600">
+  <img src="assets/logo.png" alt="pySplash.py" width="600">
 </p>
 
-# pySplash v1.0.0
+# pySplash.py v1.0.0
 
 [![license](https://img.shields.io/github/license/Sandeepv68/pySplash.svg)](https://github.com/Sandeepv68/pySplash/blob/master/LICENSE) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) ![GitHub issues](https://img.shields.io/github/issues/Sandeepv68/pySplash.svg) ![GitHub forks](https://img.shields.io/github/forks/Sandeepv68/pySplash.svg) ![GitHub stars](https://img.shields.io/github/stars/Sandeepv68/pySplash.svg)
 
-pySplash is a simple, Python API wrapper for the popular [Unsplash](https://unsplash.com/) platform. The library is written in **Python**, supports both **sync** (via `requests`) and **async** (via `httpx`) usage, and can be used in any Python 3.9+ project.
+pySplash.py is a simple, Python API wrapper for the popular [Unsplash](https://unsplash.com/) platform. The library is written in **Python**, supports both **sync** (via `requests`) and **async** (via `httpx`) usage, and can be used in any Python 3.9+ project.
 Unsplash provides beautiful high quality free images and photos that you can download and use for any project without any attribution.
 
 Before using the Unsplash API, you need to **register as a developer** and **read the API Guidelines.**
@@ -15,7 +15,7 @@ Before using the Unsplash API, you need to **register as a developer** and **rea
 
 ## Table of Contents
 <!--ts-->
-* [About](#pysplash-v100)
+* [About](#pysplashpy-v100)
 * [Installation](#installation)
 * [Sample Usage](#sample-usage)
 * [Development](#development)
@@ -28,7 +28,7 @@ Before using the Unsplash API, you need to **register as a developer** and **rea
     * [Authorization](#authorization)
         * [Public Actions](#public-actions)
         * [User Authentication](#user-authentication)
-        * [PySplash init()](#pysplash-init)
+        * [pySplash.py init()](#pysplashpy-init)
         * [Generate Bearer Token](#generate-bearer-token)
     * [Users APIs](#users-apis)
         * [Get User's Public Profile](#get-users-public-profile)
@@ -81,7 +81,7 @@ Before using the Unsplash API, you need to **register as a developer** and **rea
 
 Install the package from PyPI
 ```sh
-pip install pysplash
+pip install pysplash.py
 ```
 
 ### Sample usage
@@ -157,15 +157,15 @@ If only your access key is sent, attempting to perform non-public actions that r
 #### User Authentication
 The Unsplash API uses OAuth2 to authenticate and authorize Unsplash users. Unsplash's OAuth2 paths live at ```https://unsplash.com/oauth/```.
 
-Before using pySplash:
+Before using pySplash.py:
 - Developers are required to create a developer account from [Unsplash](https://unsplash.com/developers).
 - Create a new App from Your Apps page.
 - Get the ```Access Key```, ```Secret key```, ```Callback URLs```, and ```Authorization code```.
-- If you have a Bearer Token, then its super, or else you can generate it using **pySplash**.
+- If you have a Bearer Token, then its super, or else you can generate it using **pySplash.py**.
 > **Note:** ```Authorization code``` can be obtained by clicking the ```Authorize``` link  next to ```Callback URLs```. Also ```Authorization code``` is a one-time use code, you have to generate it again, if the action fails!.
 
-#### PySplash init()
-PySplash instance has to be initialized with your credentials obtained from Unsplash developer account for programatic access. These credentials information are passed in to the `init()` function as keyword arguments. The following example shows all the available options.
+#### pySplash.py init()
+pySplash.py instance has to be initialized with your credentials obtained from Unsplash developer account for programatic access. These credentials information are passed in to the `init()` function as keyword arguments. The following example shows all the available options.
 
 ```python
 from pySplash import PySplashApi
@@ -877,7 +877,7 @@ UnsplashApi.remove_photo_from_collection("<collection-id>", "<photo-id>")
 ```
 
 ### Tests
-pySplash uses `pytest` and `pytest-asyncio` as the testing environment. Test files are available in the `tests/` folder.
+pySplash.py uses `pytest` and `pytest-asyncio` as the testing environment. Test files are available in the `tests/` folder.
 
 ```sh
 pip install pytest pytest-asyncio

@@ -1,6 +1,6 @@
-# Contributing to pySplash
+# Contributing to pySplash.py
 
-Thanks for your interest in contributing to pySplash! This document provides guidelines and information for contributors.
+Thanks for your interest in contributing to pySplash.py! This document provides guidelines and information for contributors.
 
 ## Getting Started
 
@@ -77,7 +77,7 @@ pytest tests/ -v --cov=pySplash --cov-report=term-missing
 Use the [bug report template](https://github.com/Sandeepv68/pySplash/issues/new?template=bug_report.md) when filing a bug. Include:
 
 - Python version and OS
-- pySplash version
+- pySplash.py version
 - Minimal code to reproduce the issue
 - Expected vs actual behavior
 
@@ -91,4 +91,4 @@ This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.
 
 ## License
 
-By contributing to pySplash, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+By contributing to pySplash.py, you agree that your contributions will be licensed under the [MIT License](LICENSE).
