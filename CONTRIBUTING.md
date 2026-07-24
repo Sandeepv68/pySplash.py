@@ -7,8 +7,8 @@ Thanks for your interest in contributing to pySplash.py! This document provides 
 1. Fork the repository on GitHub
 2. Clone your fork locally:
    ```sh
-   git clone https://github.com/<your-username>/pySplash.git
-   cd pySplash
+   git clone https://github.com/<your-username>/pySplash.py.git
+   cd pySplash.py
    ```
 3. Create a virtual environment and install dependencies:
    ```sh
@@ -74,7 +74,7 @@ pytest tests/ -v --cov=pySplash --cov-report=term-missing
 
 ## Reporting Bugs
 
-Use the [bug report template](https://github.com/Sandeepv68/pySplash/issues/new?template=bug_report.md) when filing a bug. Include:
+Use the [bug report template](https://github.com/Sandeepv68/pySplash.py/issues/new?template=bug_report.md) when filing a bug. Include:
 
 - Python version and OS
 - pySplash.py version
@@ -83,7 +83,7 @@ Use the [bug report template](https://github.com/Sandeepv68/pySplash/issues/new?
 
 ## Feature Requests
 
-Use the [feature request template](https://github.com/Sandeepv68/pySplash/issues/new?template=feature_request.md). Describe the use case and how it benefits the project.
+Use the [feature request template](https://github.com/Sandeepv68/pySplash.py/issues/new?template=feature_request.md). Describe the use case and how it benefits the project.
 
 ## Code of Conduct
 

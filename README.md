@@ -4,7 +4,7 @@
 
 # pySplash.py v1.0.0
 
-[![license](https://img.shields.io/github/license/Sandeepv68/pySplash.svg)](https://github.com/Sandeepv68/pySplash/blob/master/LICENSE) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) ![GitHub issues](https://img.shields.io/github/issues/Sandeepv68/pySplash.svg) ![GitHub forks](https://img.shields.io/github/forks/Sandeepv68/pySplash.svg) ![GitHub stars](https://img.shields.io/github/stars/Sandeepv68/pySplash.svg)
+[![license](https://img.shields.io/github/license/Sandeepv68/pySplash.py.svg)](https://github.com/Sandeepv68/pySplash.py/blob/master/LICENSE) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) ![GitHub issues](https://img.shields.io/github/issues/Sandeepv68/pySplash.py.svg) ![GitHub forks](https://img.shields.io/github/forks/Sandeepv68/pySplash.py.svg) ![GitHub stars](https://img.shields.io/github/stars/Sandeepv68/pySplash.py.svg)
 
 pySplash.py is a simple, Python API wrapper for the popular [Unsplash](https://unsplash.com/) platform. The library is written in **Python**, supports both **sync** (via `requests`) and **async** (via `httpx`) usage, and can be used in any Python 3.9+ project.
 Unsplash provides beautiful high quality free images and photos that you can download and use for any project without any attribution.
